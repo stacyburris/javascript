@@ -1,8 +1,10 @@
-//
-// This is only a SKELETON file for the 'Two fer' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+'use strict';
 
-export const twoFer = () => {
-  throw new Error('Remove this statement and implement this function');
+// export const twoFer = () => {
+//   throw new Error('Remove this statement and implement this function');
+// };
+
+export const twoFer = (name ='you') => {
+  return `One for ${name}, one for me.`;
+
 };
